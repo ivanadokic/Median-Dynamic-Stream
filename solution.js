@@ -8,6 +8,9 @@ One Heap with lower half of numbers,another Heap with upper half of numbers.
 At the peek of two heaps we are going two have two middle numbers of dataset.
 If size of peaks are equal (dataset contains an even number of elements), get two peaks and find median.
 If size of one heap is bigger then another (dataset contains an odd number of elements), median is a peak of biggest heap.
+
+When a number comes we will first compare it with the current median and put it to the appropriate Heap. 
+If the new integer value is less than the current median, we put it into the max-heap else we put it to the min-heap.
  */
 
 
