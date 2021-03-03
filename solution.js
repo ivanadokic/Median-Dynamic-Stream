@@ -37,7 +37,7 @@ public static void rebalance(PriorityQueue < Integer > lowers, PriorityQueue < I
 
 }
 
-// 4. STEP getMedian (will look into two HEap sizes, if they are different take the top element form the larger HEap)
+// 4. STEP getMedian (will look into two Heap sizes, if they are different take the top element form the larger HEap)
 public static void getMedian(PriorityQueue < Integer > lowers, PriorityQueue < Integer > highers) {
   PriorityQueue < Integer > biggerHeap = loweres.size() > highers.size() ? loweres : highers;
   PriorityQueue < Integer > smallerlHeap = highers.size() > highers.size() ? highers : lowers;
